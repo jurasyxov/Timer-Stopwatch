@@ -1,0 +1,6 @@
+let seconds = 0;
+
+setInterval(() => {
+    seconds++;
+    console.log(`Elapsed: ${seconds}s`);
+}, 1000);
