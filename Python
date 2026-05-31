@@ -1,0 +1,8 @@
+import time
+
+seconds = 0
+
+while True:
+    time.sleep(1)
+    seconds += 1
+    print(f"Elapsed: {seconds}s")
